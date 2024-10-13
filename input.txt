@@ -1,0 +1,9 @@
+**      START   1000
+LABEL1  LDA     ALPHA
+**      STA     BETA
+**      ADD     GAMMA
+**      RESW    1
+ALPHA   WORD    5
+BETA    RESB    10
+GAMMA   WORD    3
+        END     LABEL1
