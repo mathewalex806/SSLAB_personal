@@ -79,10 +79,7 @@ void main()
             }
             else if (strcmp(opcode, "BYTE") == 0)
             {
-                if (operand[0] == 'C')
-                    locctr += strlen(operand) - 3;
-                else if (operand[0] == 'X')
-                    locctr += (strlen(operand) - 3) / 2;
+                locctr +=1;
             }
             else if (strcmp(opcode, "RESW") == 0)
             {
